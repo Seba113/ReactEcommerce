@@ -6,16 +6,11 @@
 }
 
 body{
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(8, 8, 8);
   font-family: 'quicksand';
   color: #fff;
   text-align: center;
-  background-image: url(../src/assets/voicu-apostol-93F3aiv_ioM-unsplash.jpg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
-  background-attachment: fixed;
-  background-position: center;
 }
 main{
   min-height: 100vh;

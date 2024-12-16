@@ -30,8 +30,8 @@ function CartItem({images, price, title, quantity, addToCart}){
 
 export function Cart (){
     const cartCheckBoxId = useId();
-
     const {cart, clearCart, addToCart} = useCart()
+    const total = cart.reduce((sum, product) => sum + product.price * product.quantity, 0);
     return(
         <>
             <label htmlFor={cartCheckBoxId} className="cart-button">
@@ -48,6 +48,8 @@ export function Cart (){
                     ))}
 
                 </ul>
+                <p>Total: ${total.toFixed(2)}</p>
+                <hr />
                 <button onClick={clearCart}>
                     <ClearCartIcon />
                 </button>

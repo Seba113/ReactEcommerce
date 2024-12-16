@@ -1,0 +1,29 @@
+.filters{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    gap: 4rem;
+}
+
+.filters > div {
+    display: flex;
+    gap: 1rem;
+}
+
+select {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    font-style: italic;
+    box-shadow: 0 0 3px #ccb5b5;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.filtro{
+    margin-bottom: 20px;
+}

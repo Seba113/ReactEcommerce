@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(19, 18, 18);
+  font-family: 'quicksand';
+  color: #fff;
+  text-align: center;
+  background-image: url(../src/assets/voicu-apostol-93F3aiv_ioM-unsplash.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+}
+main{
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Afacad Flux';
+  font-size: 4rem;
+  text-shadow: 0 0 5px ;
+}

@@ -1,0 +1,11 @@
+header h1{
+    color: white;
+}
+ header {
+    background-color: rgba(90, 87, 87, 0.027);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px;
+ }

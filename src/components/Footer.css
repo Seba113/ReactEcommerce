@@ -1,0 +1,12 @@
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a{
+    color: aqua;
+}
